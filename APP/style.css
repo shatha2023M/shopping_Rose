@@ -1,0 +1,183 @@
+*{
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    transition: width none;
+}
+
+/* @media (max-width:768px) {
+    .ul-bg{
+        background-color: rgba(164, 183, 171, 1);
+    }
+} */
+
+.pink{
+    color: rgba(222, 194, 187, 1);
+}
+
+.green1{
+    background-color:rgba(164, 183, 171, 1);
+    border-bottom: 3px solid rgba(222, 194, 187, 1);
+}
+
+.navbar{
+    margin-top: -15px;
+}
+
+
+.ul-1 li a:hover{
+    border-bottom: 1px solid rgba(222, 194, 187, 1);
+}
+.land{
+    font-size: 25px;
+    line-height: 2;
+    color:white;
+    
+}
+
+img{
+    width:"250" ;
+    height:"220";
+}
+
+
+.btn{
+    background-color: rgba(222, 194, 187, 1);
+    border-radius: 40px;
+    color: white;
+}
+
+
+
+.btn:hover{
+    border-color: white;
+}
+
+.feature .card{
+    width: 170px;
+    height: 170px;
+
+}
+
+
+.c1{
+    background-color: rgba(119, 143, 128, 1);
+}
+.c2{
+    background-color: rgba(164, 183, 171, 1);
+}
+.c3{
+    background-color: rgba(67, 91, 77, 1);
+    }
+
+h2{
+    color:  rgba(67, 91, 77, 1);
+}
+
+h2 span{
+    border-bottom: solid 4px rgba(222, 194, 187, 1);
+}
+
+.sale {
+    color:rgba(222, 194, 187, 1);
+}
+
+.sale h1{
+    font-size: 100px;
+    margin-left: -20px;
+}
+
+.sale h5{
+    color: white;
+    
+}
+
+.sale .btn{
+    margin-top: 150px;
+    margin-left: -80px;
+    }
+
+ul li a{
+    color: rgba(67, 91, 77, 1);
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgba(164, 183, 171, 1);
+}
+
+.header-2{
+    background-color: rgba(119, 143, 128, 1);
+}
+
+.header-2 .navbar{
+    text-align: center;
+}
+
+.header-2 .navbar a{
+    color: white;
+    padding: 1.2rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.header-2 .navbar a:hover{
+    background-color: rgba(67, 91, 77, 1);
+}
+
+
+
+@media (max-width:515px) {
+    html{
+        font-size: 50%;
+    }
+    .row .land{
+        font-size: medium;
+    }
+   .row .img-land{
+        width: 150px;
+    }
+
+    .f .card{
+        width: 90px;
+        height: 90px;
+    }
+
+    .f .card img{
+        width: 50px;
+        height: 20px;
+    }
+
+    .f .card .fa{
+        font-size: 30px;
+    }
+
+    .sale .text h1{
+        font-size: 40px;
+    }
+
+    .sale img{
+        width: 120px;
+        height: 160px;
+    }
+
+    .sale .btn{
+    margin-top: 130px;
+    }
+}
+
+
+.f .fa{
+    font-size: 90px;
+    color: white;
+}
+ .hov .card:hover{
+    transform: translateY(-15px);
+     border-left: 5px solid  rgba(164, 183, 171, 1); 
+}
+
+
